@@ -1,0 +1,31 @@
+# Maven compiled files
+/target/
+
+# TestNG output folder
+/test-output/
+
+# Reports or screenshots
+/reports/
+/report/
+/screenshots/
+/logs/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# Mac OS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Secrets or credentials (if any)
+/env
+config.properties
+*.log
+# Ignore raw scratch file
+src\test\java\tests\RawCode.java
